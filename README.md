@@ -424,6 +424,14 @@ You can help improve support for everyone:
 - **Report Issues**: Even if you can't fix a bug, reporting it helps the community
 - **Test Pre-releases**: Help validate new features and bug fixes before release
 
+## Contributors
+
+We would like to thank the following individuals for their contributions to this project:
+
+| Name | GitHub Profile |
+|------|----------------|
+| Ashish Ram | [@Ashish-Ram0906](https://github.com/Ashish-Ram0906) |
+
 ## License
 
 This project includes a `LICENSE` file in the repository root. Review it for the license terms.
