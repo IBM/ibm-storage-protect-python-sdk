@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ibm-storage-protect-sdk"
+version = "1.0.0"
+requires-python = ">=3.9"
+dependencies = [
+    "pydantic>=2.12.5",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pyrefly]
+search-path = ["src", "examples/postgre/src", "examples/filesystem/src"]
+
+[tool.pylint.messages_control]
+disable = [
+    "too-few-public-methods",
+    "duplicate-code",
+]
+
+[tool.pylint.format]
+max-line-length = 120
+
+[tool.pylint.design]
+max-module-lines = 1500
+
+
+

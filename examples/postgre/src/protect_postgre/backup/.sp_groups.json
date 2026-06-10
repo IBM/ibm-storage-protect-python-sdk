@@ -1,0 +1,11 @@
+{
+  "database_backup_group": {
+    "leader_id": {
+      "hi": 0,
+      "lo": 9684432
+    },
+    "filespace": "/postgres_bckp",
+    "created_at": "2026-06-01T07:12:10.615607",
+    "first_member_is_leader": true
+  }
+}
